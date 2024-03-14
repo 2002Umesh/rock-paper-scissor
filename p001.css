@@ -1,0 +1,41 @@
+.sps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 97vh;
+  color: #333;
+  background-color: rgb(244, 147, 195);
+  background: radial-gradient(rgb(246, 183, 214), rgb(211, 72, 141));
+  justify-content: center;
+  align-content: center;
+  gap: 0.5rem;
+  border: 0%;
+  margin: 0%;
+}
+#pscore,
+#cscore {
+  color: darkcyan;
+}
+#result {
+  color: red;
+}
+.btn {
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  background-color: darkcyan;
+}
+.btn:hover {
+  background-color: brown;
+  color: black;
+  transition: all;
+  transition-duration: 0.4s;
+}
+.cont {
+  display: flex;
+  gap: 5px;
+ 
+}
